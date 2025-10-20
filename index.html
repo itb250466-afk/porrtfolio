@@ -16,17 +16,29 @@
         <!--header-->
         <header class="header">
             <a href="#home" class="logo">Pham <span>Viet</span> Ton</a>
-            
         <nav class="navbar">
-            <a href="#">Skills</a>
-            <a href="#">Educations</a>
-            <a href="#">Project</a>
             <a href="#">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
             <a href="#">Contact</a>
         </nav>
         <button class="gradient-btn">Contact Me</button>
 
      </header>
+     <section class="video" id="video">
+        <div class="home-image">
+            <video autofocus controls autoplay muted loop id="myVideo" width="600" height="600">
+                <source src="images/Goodbye FaZe rain - CS：GO & CS2 Fragmovie [onqabncTcr4].webm" type="video/webm">
+            </video>
+            <audio controls autoplay loop id="audio">
+                <source src="images/Chisa Theme ｜ Wuthering Waves 2.8 OST [PjZSrNbTUKA].mp3" type="audio/mp3">
+            </audio>
+            <button id="playBtn">▶</button>
+        </div>
+        
+
+     </section>
     <section class="home" id="home">
         <div class="home-content">
          <h1>It's <span>Tonya</span></h1>
@@ -51,19 +63,58 @@
                 <a href="#Contact" class="btn">Contact</a>
             </div>
         </div>    
-        <div class="img"><img src="/Portfolio/images/170b3260d8e2e60009ed7f38e4867fa7.webp"></div>
-        <div class="home-image">
-            <video autofocus controls autoplay muted loop id="myVideo" width="600" height="600">
-                <source src="images/Goodbye FaZe rain - CS：GO & CS2 Fragmovie [onqabncTcr4].webm" type="video/webm">
-            </video>
-            <audio controls autoplay loop id="audio">
-                <source src="images/Chisa Theme ｜ Wuthering Waves 2.8 OST [PjZSrNbTUKA].mp3" type="audio/mp3">
-            </audio>
-            <button id="playBtn">▶</button>
-        </div>
-        <script src="scripts.js"></script>
+        <div class="image"><img src="/Portfolio/images/170b3260d8e2e60009ed7f38e4867fa7.webp"></div>
         
     </section>
+    <section class="Aboutme" id="about-me">
+        <!--About Me-->
+        <div class="about-img">
+            <img src="/Portfolio/images/IMG_20250124_181350.jpg">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda totam quas illum recusandae quos! Tempora recusandae temporibus expedita, fugiat dolor similique sed aperiam itaque necessitatibus veritatis facere, explicabo eos.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
     
+    <section href="#" class="Services" id="Services">
+        <h2 class="heading"><span>Services</span></h2>
+            <div class="container">
+                <div id="slider">
+                    <div class="msg">
+                        <h4><span>3D Artist</span></h4>
+                        <p>PiCk up as a hobby now have turn into a full time for me <br>with mAny projects worked on from small to largest<br>With 3 Years exPerience in Blender 
+                        </p>
+                    </div>
+                    <div class="msg">
+                        <h4><span>Software engineer</span></h4>
+                        <p>I was Capping</p>
+                    </div>
+                    <div class="msg">
+                        <h4><span>All Stack Webdeveloper</span></h4>
+                        <p>It a lie i dont do full stack </p>
+                    </div>
+                    <div class="msg">
+                        <h4><span>Content Creator</span></h4>
+                        <p>Under the Name of Tonya Im a small time content Creator revolve about genshin impact and another gacha games yes i have no life </p>
+                    </div>
+                </div>
+            </div>
+        <div class="controller">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+            <div id="line4"></div>
+            <div id="active"></div>
+        </div>
+
+    </section>
+    <section>
+        <div class="Project" id="Project">
+
+        </div>
+    </section>
+    <script src="scripts.js"></script>
     </body>
 </html>
